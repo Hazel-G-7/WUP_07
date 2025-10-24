@@ -49,10 +49,7 @@ basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
-
-  
-
+When plotting the graphical results, I have observed that the number of individuals alive are higher than those that are dead. Looking into the chart, I found that 2/3 of deceased individuals were men (63%), and 1/3 were woman (37%), concluding that there are more deceased males than females; whilst in the chart, most of the females were alive (57%) compared to men (43%). 
 
 
 
